@@ -19,6 +19,7 @@ body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   color: var(--color-body-text);
   font-size: 1.4rem;
+  background: var(--color-background);
 }
 
 h1,
@@ -44,6 +45,7 @@ h1 {
 }
 
 /* Buttons */
+/* FIXME: Figure out how to center the button */
 .btn {
   border-radius: 9px;
   border: 0;
@@ -51,7 +53,7 @@ h1 {
   display: block;
   font-size: 1.3rem;
   font-weight: 500;
-  margin: 2rem;
+  margin: 2rem 0;
   outline: 0;
   padding: 1.4rem 9rem;
 }
@@ -111,4 +113,23 @@ h1 {
   .card-coupon__price-slash {
     font-size: 1rem;
   }
+}
+
+/* Card */
+.coupon__image {
+  width: 100%;
+}
+.card-coupon {
+  margin: 2.5rem 1.5rem;
+  border-radius: 7px;
+  overflow: hidden;
+  background: white;
+}
+
+.card-coupon__body {
+  padding-left: 2.2rem;
+}
+
+.card-coupon__heading {
+    text-transform: capitalize;
 }
