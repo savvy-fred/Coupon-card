@@ -1,6 +1,39 @@
 :root {
-    --color-primary: hsl(158, 36%, 37%);
-    --color-primary-darker: hsl(212, 21%, 14%);
-    --color-background: hsl(30, 38%, 92%);
-    --color-body-text: hsl(228, 12%, 48%);
+  --color-primary: hsl(158, 36%, 37%);
+  --color-primary-darker: hsl(212, 21%, 14%);
+  --color-background: hsl(30, 38%, 92%);
+  --color-body-text: hsl(228, 12%, 48%);
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: var(--color-body-text);
+  font-size: 1.4rem;
+}
+
+h1,
+span {
+  font-family: "Fraunces", serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: black;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
 }
