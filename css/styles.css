@@ -82,7 +82,33 @@ h1 {
 }
 
 @media screen and (min-width: 1024px) {
-    .card-coupon__tag {
-        margin: 2.5rem 0;
-    }
+  .card-coupon__tag {
+    margin: 2.5rem 0;
+  }
+}
+
+/* Price Tag */
+.card-coupon__price {
+  color: var(--color-primary);
+  font-size: 3rem;
+  margin-right: 1.5rem;
+}
+
+.card-coupon__price-slash {
+  font-size: 1.1rem;
+  text-decoration: line-through;
+  position: relative;
+  top: -0.7rem;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  .card-coupon__price {
+    font-size: 2.7rem;
+    margin-right: 1.25rem;
+  }
+
+  .card-coupon__price-slash {
+    font-size: 1rem;
+  }
 }
