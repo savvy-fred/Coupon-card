@@ -63,7 +63,7 @@ h1 {
 }
 
 .btn:hover {
-    background: hsl(158, 36%, 20%);;
+  background: hsl(158, 36%, 20%);
 }
 
 .btn img {
@@ -72,3 +72,17 @@ h1 {
   top: 1px;
 }
 
+/* Coupon Tag */
+.card-coupon__tag {
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-size: 1.2rem;
+  margin-top: 1.8rem;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px) {
+    .card-coupon__tag {
+        margin: 2.5rem 0;
+    }
+}
