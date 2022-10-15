@@ -5,6 +5,11 @@
   --color-body-text: hsl(228, 12%, 48%);
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Typography */
 html {
   font-size: 62.5%;
@@ -29,11 +34,41 @@ h1 {
 }
 
 @media screen and (min-width: 1024px) {
-    body {
-        font-size: 1.2rem;
-    }
+  body {
+    font-size: 1.2rem;
+  }
 
-    h1 {
-        font-size: 2.5rem;
-    }
+  h1 {
+    font-size: 2.5rem;
+  }
 }
+
+/* Buttons */
+.btn {
+  border-radius: 9px;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 2rem;
+  outline: 0;
+  padding: 1.4rem 9rem;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: white;
+  transition: background, 0.15s;
+}
+
+.btn:hover {
+    background: hsl(158, 36%, 20%);;
+}
+
+.btn img {
+  margin-right: 0.5rem;
+  position: relative;
+  top: 1px;
+}
+
